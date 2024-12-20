@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1030842D143FF8002F6FCF /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1030802D143FF8002F6FCF /* SideMenuTableViewCell.swift */; };
+		4E1030852D143FF8002F6FCF /* AboutusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1030812D143FF8002F6FCF /* AboutusViewController.swift */; };
+		4E1030862D143FF8002F6FCF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1030822D143FF8002F6FCF /* SettingsViewController.swift */; };
+		4E1030872D143FF8002F6FCF /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1030832D143FF8002F6FCF /* FeedbackViewController.swift */; };
+		4E120FCA2D118E1500A4E6A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E120FC92D118E1500A4E6A0 /* AppDelegate.swift */; };
+		4E120FCC2D118E1500A4E6A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E120FCB2D118E1500A4E6A0 /* SceneDelegate.swift */; };
+		4E120FCE2D118E1500A4E6A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E120FCD2D118E1500A4E6A0 /* ViewController.swift */; };
+		4E120FD12D118E1500A4E6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E120FCF2D118E1500A4E6A0 /* Main.storyboard */; };
+		4E120FD32D118E1900A4E6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E120FD22D118E1900A4E6A0 /* Assets.xcassets */; };
+		4E120FD62D118E1900A4E6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E120FD42D118E1900A4E6A0 /* LaunchScreen.storyboard */; };
+		4E49993C2D11902E004AD626 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E49993B2D11902E004AD626 /* WelcomeViewController.swift */; };
+		4ED542242D13FC8F002DB821 /* DoctororderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED542232D13FC8F002DB821 /* DoctororderViewController.swift */; };
+		4ED542262D13FD01002DB821 /* DoctororderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED542252D13FD01002DB821 /* DoctororderTableViewCell.swift */; };
+		4ED542292D141779002DB821 /* SalesoverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED542282D141779002DB821 /* SalesoverviewViewController.swift */; };
+		4ED5422B2D1417D6002DB821 /* SalesoverviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED5422A2D1417D6002DB821 /* SalesoverviewTableViewCell.swift */; };
+		4EDE04402D12DB2100685754 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE043E2D12DB2100685754 /* Helper.swift */; };
+		4EDE04412D12DB2100685754 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE043F2D12DB2100685754 /* iOSDropDown.swift */; };
+		4EDE04442D12DB7800685754 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE04432D12DB7800685754 /* DashboardViewController.swift */; };
+		4EDE04492D12DD7500685754 /* DashbordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE04482D12DD7500685754 /* DashbordCollectionViewCell.swift */; };
+		4EDE044C2D12E31900685754 /* PatientEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE044B2D12E31900685754 /* PatientEntryViewController.swift */; };
+		4EDE044E2D12E78300685754 /* PatientRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE044D2D12E78200685754 /* PatientRecordViewController.swift */; };
+		4EDE04502D12E7C500685754 /* PatientrecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE044F2D12E7C500685754 /* PatientrecordTableViewCell.swift */; };
+		4EDE04532D12F02B00685754 /* DoctorSaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE04522D12F02B00685754 /* DoctorSaleViewController.swift */; };
+		B7ED15864CE05978D8F3C410 /* Pods_DocterLedger_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C015B23AC68E21C21DA746 /* Pods_DocterLedger_Hub.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10C015B23AC68E21C21DA746 /* Pods_DocterLedger_Hub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DocterLedger_Hub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3140C0A948E933788C6E653A /* Pods-DocterLedger Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocterLedger Hub.debug.xcconfig"; path = "Target Support Files/Pods-DocterLedger Hub/Pods-DocterLedger Hub.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1E9713783B49E7CAFB43A6 /* Pods-DocterLedger Hub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DocterLedger Hub.release.xcconfig"; path = "Target Support Files/Pods-DocterLedger Hub/Pods-DocterLedger Hub.release.xcconfig"; sourceTree = "<group>"; };
+		4E1030802D143FF8002F6FCF /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		4E1030812D143FF8002F6FCF /* AboutusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutusViewController.swift; sourceTree = "<group>"; };
+		4E1030822D143FF8002F6FCF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4E1030832D143FF8002F6FCF /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		4E120FC62D118E1500A4E6A0 /* DocterLedger Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DocterLedger Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E120FC92D118E1500A4E6A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E120FCB2D118E1500A4E6A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E120FCD2D118E1500A4E6A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E120FD02D118E1500A4E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E120FD22D118E1900A4E6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E120FD52D118E1900A4E6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E120FD72D118E1900A4E6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E49993B2D11902E004AD626 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4ED542232D13FC8F002DB821 /* DoctororderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctororderViewController.swift; sourceTree = "<group>"; };
+		4ED542252D13FD01002DB821 /* DoctororderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctororderTableViewCell.swift; sourceTree = "<group>"; };
+		4ED542282D141779002DB821 /* SalesoverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesoverviewViewController.swift; sourceTree = "<group>"; };
+		4ED5422A2D1417D6002DB821 /* SalesoverviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesoverviewTableViewCell.swift; sourceTree = "<group>"; };
+		4EDE043E2D12DB2100685754 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		4EDE043F2D12DB2100685754 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
+		4EDE04432D12DB7800685754 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		4EDE04482D12DD7500685754 /* DashbordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashbordCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EDE044B2D12E31900685754 /* PatientEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientEntryViewController.swift; sourceTree = "<group>"; };
+		4EDE044D2D12E78200685754 /* PatientRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientRecordViewController.swift; sourceTree = "<group>"; };
+		4EDE044F2D12E7C500685754 /* PatientrecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientrecordTableViewCell.swift; sourceTree = "<group>"; };
+		4EDE04522D12F02B00685754 /* DoctorSaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSaleViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E120FC32D118E1500A4E6A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7ED15864CE05978D8F3C410 /* Pods_DocterLedger_Hub.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E32E8B2B3CC1A496B0A8CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3140C0A948E933788C6E653A /* Pods-DocterLedger Hub.debug.xcconfig */,
+				3D1E9713783B49E7CAFB43A6 /* Pods-DocterLedger Hub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E10307F2D143FB4002F6FCF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4E1030812D143FF8002F6FCF /* AboutusViewController.swift */,
+				4E1030832D143FF8002F6FCF /* FeedbackViewController.swift */,
+				4E1030822D143FF8002F6FCF /* SettingsViewController.swift */,
+				4E1030802D143FF8002F6FCF /* SideMenuTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4E120FBD2D118E1400A4E6A0 = {
+			isa = PBXGroup;
+			children = (
+				4E120FC82D118E1500A4E6A0 /* DocterLedger Hub */,
+				4E120FC72D118E1500A4E6A0 /* Products */,
+				37E32E8B2B3CC1A496B0A8CC /* Pods */,
+				5D9B10FB530A5DDA55C4B5A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E120FC72D118E1500A4E6A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E120FC62D118E1500A4E6A0 /* DocterLedger Hub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E120FC82D118E1500A4E6A0 /* DocterLedger Hub */ = {
+			isa = PBXGroup;
+			children = (
+				4E10307F2D143FB4002F6FCF /* Settings */,
+				4ED542272D1416EA002DB821 /* Sales overview */,
+				4EDE04512D12EFD500685754 /* Doctor */,
+				4EDE044A2D12E2E300685754 /* PatientEntry */,
+				4EDE04422D12DB5B00685754 /* Dashboard */,
+				4E49993A2D119004004AD626 /* WelcomeScreen */,
+				4E120FC92D118E1500A4E6A0 /* AppDelegate.swift */,
+				4E120FCB2D118E1500A4E6A0 /* SceneDelegate.swift */,
+				4E120FCD2D118E1500A4E6A0 /* ViewController.swift */,
+				4E120FCF2D118E1500A4E6A0 /* Main.storyboard */,
+				4EDE043D2D12DB0F00685754 /* Helper */,
+				4E120FD22D118E1900A4E6A0 /* Assets.xcassets */,
+				4E120FD42D118E1900A4E6A0 /* LaunchScreen.storyboard */,
+				4E120FD72D118E1900A4E6A0 /* Info.plist */,
+			);
+			path = "DocterLedger Hub";
+			sourceTree = "<group>";
+		};
+		4E49993A2D119004004AD626 /* WelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4E49993B2D11902E004AD626 /* WelcomeViewController.swift */,
+			);
+			path = WelcomeScreen;
+			sourceTree = "<group>";
+		};
+		4ED542272D1416EA002DB821 /* Sales overview */ = {
+			isa = PBXGroup;
+			children = (
+				4ED542282D141779002DB821 /* SalesoverviewViewController.swift */,
+				4ED5422A2D1417D6002DB821 /* SalesoverviewTableViewCell.swift */,
+			);
+			path = "Sales overview";
+			sourceTree = "<group>";
+		};
+		4EDE043D2D12DB0F00685754 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE043E2D12DB2100685754 /* Helper.swift */,
+				4EDE043F2D12DB2100685754 /* iOSDropDown.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4EDE04422D12DB5B00685754 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE04432D12DB7800685754 /* DashboardViewController.swift */,
+				4EDE04482D12DD7500685754 /* DashbordCollectionViewCell.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		4EDE044A2D12E2E300685754 /* PatientEntry */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE044B2D12E31900685754 /* PatientEntryViewController.swift */,
+				4EDE044D2D12E78200685754 /* PatientRecordViewController.swift */,
+				4EDE044F2D12E7C500685754 /* PatientrecordTableViewCell.swift */,
+			);
+			path = PatientEntry;
+			sourceTree = "<group>";
+		};
+		4EDE04512D12EFD500685754 /* Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				4EDE04522D12F02B00685754 /* DoctorSaleViewController.swift */,
+				4ED542232D13FC8F002DB821 /* DoctororderViewController.swift */,
+				4ED542252D13FD01002DB821 /* DoctororderTableViewCell.swift */,
+			);
+			path = Doctor;
+			sourceTree = "<group>";
+		};
+		5D9B10FB530A5DDA55C4B5A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10C015B23AC68E21C21DA746 /* Pods_DocterLedger_Hub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E120FC52D118E1500A4E6A0 /* DocterLedger Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E120FDA2D118E1900A4E6A0 /* Build configuration list for PBXNativeTarget "DocterLedger Hub" */;
+			buildPhases = (
+				C9F77C1EA16FFA3FD51FA77E /* [CP] Check Pods Manifest.lock */,
+				4E120FC22D118E1500A4E6A0 /* Sources */,
+				4E120FC32D118E1500A4E6A0 /* Frameworks */,
+				4E120FC42D118E1500A4E6A0 /* Resources */,
+				61D4391D45D8A4EC3610557B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DocterLedger Hub";
+			productName = "DocterLedger Hub";
+			productReference = 4E120FC62D118E1500A4E6A0 /* DocterLedger Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E120FBE2D118E1400A4E6A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					4E120FC52D118E1500A4E6A0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 4E120FC12D118E1500A4E6A0 /* Build configuration list for PBXProject "DocterLedger Hub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E120FBD2D118E1400A4E6A0;
+			productRefGroup = 4E120FC72D118E1500A4E6A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E120FC52D118E1500A4E6A0 /* DocterLedger Hub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E120FC42D118E1500A4E6A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E120FD62D118E1900A4E6A0 /* LaunchScreen.storyboard in Resources */,
+				4E120FD32D118E1900A4E6A0 /* Assets.xcassets in Resources */,
+				4E120FD12D118E1500A4E6A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61D4391D45D8A4EC3610557B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocterLedger Hub/Pods-DocterLedger Hub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DocterLedger Hub/Pods-DocterLedger Hub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DocterLedger Hub/Pods-DocterLedger Hub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F77C1EA16FFA3FD51FA77E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DocterLedger Hub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E120FC22D118E1500A4E6A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EDE04502D12E7C500685754 /* PatientrecordTableViewCell.swift in Sources */,
+				4EDE04412D12DB2100685754 /* iOSDropDown.swift in Sources */,
+				4EDE044E2D12E78300685754 /* PatientRecordViewController.swift in Sources */,
+				4E1030872D143FF8002F6FCF /* FeedbackViewController.swift in Sources */,
+				4EDE04442D12DB7800685754 /* DashboardViewController.swift in Sources */,
+				4EDE04492D12DD7500685754 /* DashbordCollectionViewCell.swift in Sources */,
+				4E1030862D143FF8002F6FCF /* SettingsViewController.swift in Sources */,
+				4E120FCE2D118E1500A4E6A0 /* ViewController.swift in Sources */,
+				4E49993C2D11902E004AD626 /* WelcomeViewController.swift in Sources */,
+				4EDE044C2D12E31900685754 /* PatientEntryViewController.swift in Sources */,
+				4EDE04532D12F02B00685754 /* DoctorSaleViewController.swift in Sources */,
+				4EDE04402D12DB2100685754 /* Helper.swift in Sources */,
+				4E1030842D143FF8002F6FCF /* SideMenuTableViewCell.swift in Sources */,
+				4ED5422B2D1417D6002DB821 /* SalesoverviewTableViewCell.swift in Sources */,
+				4E1030852D143FF8002F6FCF /* AboutusViewController.swift in Sources */,
+				4E120FCA2D118E1500A4E6A0 /* AppDelegate.swift in Sources */,
+				4E120FCC2D118E1500A4E6A0 /* SceneDelegate.swift in Sources */,
+				4ED542242D13FC8F002DB821 /* DoctororderViewController.swift in Sources */,
+				4ED542262D13FD01002DB821 /* DoctororderTableViewCell.swift in Sources */,
+				4ED542292D141779002DB821 /* SalesoverviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E120FCF2D118E1500A4E6A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E120FD02D118E1500A4E6A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E120FD42D118E1900A4E6A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E120FD52D118E1900A4E6A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E120FD82D118E1900A4E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E120FD92D118E1900A4E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E120FDB2D118E1900A4E6A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3140C0A948E933788C6E653A /* Pods-DocterLedger Hub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3N5R3Y539;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DocterLedger Hub/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DocterLedger-Hub.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4E120FDC2D118E1900A4E6A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1E9713783B49E7CAFB43A6 /* Pods-DocterLedger Hub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3N5R3Y539;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DocterLedger Hub/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DocterLedger-Hub.sm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E120FC12D118E1500A4E6A0 /* Build configuration list for PBXProject "DocterLedger Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E120FD82D118E1900A4E6A0 /* Debug */,
+				4E120FD92D118E1900A4E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E120FDA2D118E1900A4E6A0 /* Build configuration list for PBXNativeTarget "DocterLedger Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E120FDB2D118E1900A4E6A0 /* Debug */,
+				4E120FDC2D118E1900A4E6A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E120FBE2D118E1400A4E6A0 /* Project object */;
+}
